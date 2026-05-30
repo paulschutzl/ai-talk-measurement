@@ -56,6 +56,6 @@ Download the files here:
 ## How to use the model in code
 
 1. Download the files.
-2. Put them in one local folder, for example `./models/final_model/`.
-3. Load the model with Hugging Face Transformers.
+2. Put them in one local folder, for example `./models`.
+3. Load the model with Hugging Face Transformers. (explained in inference.py)
 
