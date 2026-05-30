@@ -43,4 +43,19 @@ The parser uses these section labels to:
 
 The logic is intentionally transcript-format specific, but the section labels and keyword rules can be edited for other transcript sources.
 
+## Model files
+
+The trained model files are stored in Google Drive because they are too large for GitHub.
+
+Download the files here:
+- config.json
+- tokenizer.json
+- tokenizer_config.json
+- model.safetensors
+
+## How to use the model in code
+
+1. Download the files.
+2. Put them in one local folder, for example `./models/final_model/`.
+3. Load the model with Hugging Face Transformers.
 
