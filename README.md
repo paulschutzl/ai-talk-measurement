@@ -20,10 +20,10 @@ The core idea is to move beyond simple keyword counting and instead measure the 
 
 This repository contains:
 
-- **model weights** for the final trained classifier,
+- **model weights** for the final trained classifier, (downloads.md)
 - **example chunks** showing the chunk format used in the project,
-- **code for chunk extraction** from earnings call transcripts,
-- **training code** for the classifier,
+- **code for chunk extraction** from earnings call transcripts, (extract_chunks.py)
+- **inference code** for the classifier, (inference.py)
 - and this documentation.
 
 ## How the extractor works
