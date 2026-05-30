@@ -26,3 +26,21 @@ This repository contains:
 - **training code** for the classifier,
 - and this documentation.
 
+## How the extractor works
+
+This script is designed for Seeking Alpha earnings call transcripts.
+
+Seeking Alpha transcripts usually contain a structured header with sections such as:
+- Company Participants
+- Conference Call Participants
+- Operator / Presentation / Q&A
+
+The parser uses these section labels to:
+1. identify the company speaker list,
+2. separate company speakers from analyst speakers,
+3. locate the beginning of the call body,
+4. extract only the executive speech for downstream chunking.
+
+The logic is intentionally transcript-format specific, but the section labels and keyword rules can be edited for other transcript sources.
+
+
